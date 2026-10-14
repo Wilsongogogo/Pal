@@ -2,22 +2,27 @@
 
 Pal 是一款 macOS 阅读与学习搭子应用。这里提供**不含开发者个人数据的试用安装包**、更新包、使用说明及问题反馈入口。当前版本 **0.8.4**，支持 **Apple Silicon Mac**。
 
-## 下载
+## 下载与首次打开
 
-- **第一次安装：** [Pal 0.8.4 完整试用版](https://github.com/Wilsongogogo/Pal/releases/download/v0.8.4/Pal-0.8.4-initial-mac-arm64.zip)
-- **已安装 0.8.3：** [Pal 0.8.4 更新包 · 更新器修正版 2](https://github.com/Wilsongogogo/Pal/releases/download/v0.8.4/Pal-0.8.4-update-fix2-mac-arm64.zip)
-- [全部版本与更新说明](https://github.com/Wilsongogogo/Pal/releases) · [文件校验值](https://github.com/Wilsongogogo/Pal/releases/download/v0.8.4/SHA256SUMS.txt)
+- **朋友试用完整修正版：** [Pal 0.8.4 · 签名修正版 3](https://github.com/Wilsongogogo/Pal/releases/download/v0.8.4-friends.3/Pal-0.8.4-friends-fix3-mac-arm64.zip)
+- [首次打开说明](https://github.com/Wilsongogogo/Pal/releases/download/v0.8.4-friends.3/Pal-first-open.txt) · [文件校验值](https://github.com/Wilsongogogo/Pal/releases/download/v0.8.4-friends.3/SHA256SUMS-friends.txt)
+- [发布详情与版本记录](https://github.com/Wilsongogogo/Pal/releases)
+
+本包补全应用及内嵌组件的临时签名，但**仍未经过 Apple 公证**。首次打开可能被 macOS 拦截，需要使用者确认来源并手动允许。签名校验通过不代表 Apple 已验证其安全性。
+
+1. 解压，把 **Pal.app** 放入“应用程序”。已安装的用户先退出 Pal，再替换应用；会保留自己的 Pal Trial 资料库。
+2. 尝试打开。若提示无法验证开发者，在确认来源可信后，进入 **系统设置 → 隐私与安全性 → 仍要打开**。
+3. 若仍提示“已损坏”，先与校验文件核对 ZIP 的 SHA-256。确认一致且信任来源后，按[首次打开说明](https://github.com/Wilsongogogo/Pal/releases/download/v0.8.4-friends.3/Pal-first-open.txt)对这一份 Pal 做处理，不必关闭 Mac 全局安全保护。
 
 完整试用版首次打开为空白资料库，默认名称 Pal / Buddy，不附带开发者的文件、笔记、聊天、头像、AI 账户或密码。AI 功能需配置自己的模型连接或账户；未连接时仍可本地阅读。
 
+旧发布已移除，请使用本次完整修正版；暂不提供旧版差量更新包。
+
 ## 开始使用
 
-1. 解压完整安装包，把 **Pal.app** 放入“应用程序”或自己的 Applications 文件夹，打开应用。
-2. 导入课件或电子书，也可拖到侧栏课程或文件夹。
-3. 在头像／学习空间菜单的设置中连接自己的 AI。指向读取与跨应用截图需要按提示授予当前应用所需的系统权限。
-4. **⌘K** 搜索；方向键默认直接定位。沉浸阅读中按 **⌘⇧B** 调出右侧 standby。
+导入课件或电子书，也可拖到侧栏课程或文件夹。在头像／学习空间菜单的设置中连接自己的 AI。指向读取与跨应用截图需要按提示授予当前应用所需的系统权限。
 
-更新已有 0.8.3：退出 Pal（⌘Q），完整解压更新包，双击 **“更新 Pal.command”**，再拖入原来的应用。应用改名为 **Pal 2.app** 也可以。更新器会保留原来的资料库与连接，区分个人版和试用版，并备份旧应用资源。
+**⌘K** 搜索；方向键默认直接定位。沉浸阅读中按 **⌘⇧B** 调出右侧 standby。
 
 ## 可以做什么
 
